@@ -3,7 +3,7 @@
 
 
 
-import { createApp } from 'vue'
+const { createApp } = Vue
 
 createApp({
 
@@ -11,6 +11,7 @@ createApp({
   data() {
     return {
       
+      titoloH1: 'Vue Js',
 
     }
   },
